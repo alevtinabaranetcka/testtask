@@ -1,0 +1,102 @@
+body {
+    width: 1280px;
+    height: 800px;
+    display: inline-block;
+    background-image: url("images/background.jpg");
+    font-family: "Helvetica Neue Ultra Light", sans-serif;
+    margin-left: 170px;
+    }
+
+header {
+    color: #ffffff;
+    font-size: 4.063em; /* Approximation due to font substitution */
+    font-weight: 200;
+    line-height: 0.4; /* Approximation due to font substitution */
+    text-align: left;
+    }
+
+article div {
+    height: 150px;
+    margin-right: 10px;
+    margin-top: 10px;
+        }
+
+article div i {
+    color: white;
+                }
+
+article div a {
+    text-decoration: none;
+    text-align: left;
+    color: white;
+    font-size: 1.125em;/* Approximation due to font substitution */
+    font-weight: 200;
+    line-height: 1.444;/* Approximation due to font substitution */
+}
+
+.first {
+    width: 150px;
+    text-align: center;
+        }
+
+.second {
+    width: 280px;
+    text-align: center;
+}
+
+.third {
+    width: 310px;
+    text-align: center;
+}
+
+.fourth {
+    width: 440px;
+}
+
+#home {
+    background-color: #3387ea;
+    display: inline-block;
+    }
+
+#about {
+    background-color: #f9be3e;
+    display: inline-block;
+        }
+
+
+#portfolio {
+    background-color: #d3573e;
+    display: inline-block;
+    }
+
+#photos {
+    background-color: #59b0e2;
+    display: inline-block;
+    }
+
+#testimonials {
+    background-color: #33af95;
+    display: inline-block;
+    }
+
+#wanna {
+    background-color: #86a73f;
+    display: inline-block;
+    }
+
+#nouncy {
+    background-color: #151a26;
+    display: inline-block;
+   }
+
+#contact {
+    background-color: #7e5b8c;
+    display: inline-block;
+    }
+
+.social img {
+    height: 75px;
+    width: 75px;
+    margin-right: 10px;
+    margin-top: 10px;
+    }
