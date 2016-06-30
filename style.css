@@ -1,9 +1,12 @@
+
 body {
     width: 1280px;
     height: 800px;
     background-image: url("images/background.jpg");
     font-family: "Helvetica Neue Ultra Light", sans-serif;
     margin-left: 170px;
+    display: inline-block;
+    position: relative;
     }
 
 header {
@@ -14,75 +17,119 @@ header {
     text-align: left;
     }
 
-article div {
-    height: 150px;
+div  {
     margin-right: 10px;
     margin-top: 10px;
-    position: relative;
+    vertical-align: middle;
         }
 
-i {
-    color: white;
-    float: right;
-  }
-
-.fa-home {
-    padding-top: 40px;
-    padding-right: 40px;
-    }
-.fa-user {
-    padding-top: 40px;
-    padding-right: 50px;
-}
-.fa-briefcase {
-    padding-top: 40px;
-    padding-right: 110px;
-}
-.fa-picture-o {
-    padding-top: 40px;
-    padding-right: 45px;
-}
-.fa-comment {
-    padding-top: 40px;
-   padding-right: 45px;
-}
-.fa-envelope {
-    padding-top: 40px;
-    padding-right: 50px;
-}
-.title {
-    color: white;
-    float: left;
-    font-size: 1.125em;/* Approximation due to font substitution */
-    font-weight: 200;
-    line-height: 1.444;/* Approximation due to font substitution */
-    text-align: left;
-}
-
- /* article div a {
+a {
     text-decoration: none;
-    text-align: left;
     color: white;
-    font-size: 1.125em;
-    font-weight: 200;
-    line-height: 1.444;
-} */
+    margin: 0 auto;
+}
+
+.icon {
+    display: block;
+    text-align: center;
+    }
+.title {
+    text-align: left;
+    display: block;
+    font-size: 1.125em;/* Approximation due to font substitution */
+    line-height: 1.444;/* Approximation due to font substitution */
+}
+
+#t-home {
+    margin-left: 10px;
+    margin-top: 34px;
+}
+#i-home {
+    margin-left: 49px;
+    margin-top: 39px;
+    width: 52px;
+    height: 54px;
+}
+#t-about {
+    margin-left: 8px;
+    margin-top: 28px;
+}
+#i-about {
+    margin-left: 50px;
+    margin-top: 36px;
+    width: 50px;
+    height: 63px;
+}
+#t-portfolio {
+    margin-left: 9px;
+    margin-top: 34px;
+}
+#i-portfolio {
+    margin-left: 112px;
+    margin-top: 40px;
+    width: 57px;
+    height: 53px;
+}
+#t-photos {
+    margin-left:10px;
+    margin-top: 34px;
+}
+#i-photos {
+    margin-left: 46px;
+    margin-top: 39px;
+    width: 58px;
+    height: 54px;
+}
+#t-testimonials {
+    margin-left:8px;
+    margin-top: 34px;
+}
+#i-testimonials {
+    margin-left: 47px;
+    margin-top: 46px;
+    width: 55px;
+    height: 47px;
+}
+#t-wanna {
+    margin-left:10px;
+    margin-top: 27px;
+}
+#i-wanna {
+    margin-left: 128px;
+    margin-top: 32px;
+    width: 54px;
+    height: 67px;
+}
+#t-contact {
+    margin-left:9px;
+    margin-top: 40px;
+}
+#i-contact {
+    margin-left: 41px;
+    margin-top: 47px;
+    width: 68px;
+    height: 39px;
+}
 
 
 .small {
     width: 150px;
+    height: 150px;
             }
 
 .medium {
     width: 280px;
+    height: 150px;
     }
 
 .large {
     width: 310px;
+    height: 150px;
     }
 
-.xlarge {
+.x-large {
     width: 440px;
+    height: 150px;
 }
 
 #home {
@@ -125,6 +172,32 @@ i {
     background-color: #7e5b8c;
     display: inline-block;
         }
+.blog {
+    display: inline-block;
+}
+.text {
+    text-align: left;
+    display: inline-block;
+    }
+ #1 {
+    color: #cccccc;
+    font-size: 1.125em;/* Approximation due to font substitution */
+
+    line-height: 1.667;/* Approximation due to font substitution */
+   }
+#2 {
+    color: #ffffff;
+    font-size: 1.375em;/* Approximation due to font substitution */
+
+    line-height: 1.364;/* Approximation due to font substitution */
+    }
+#3 {
+    color: #999999;
+    font-size: 0.75em;/* Approximation due to font substitution */
+    
+    line-height: 2.5;/* Approximation due to font substitution */
+    }
+
 
 .social img {
     height: 75px;
