@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 body {
     width: 1280px;
@@ -7,6 +8,15 @@ body {
     margin-left: 170px;
     display: inline-block;
     position: relative;
+=======
+body {
+    width: 1280px;
+    height: 800px;
+    display: inline-block;
+    background-image: url("images/background.jpg");
+    font-family: "Helvetica Neue Ultra Light", sans-serif;
+    margin-left: 170px;
+>>>>>>> 2fecc3415184f4d35c3f77ba849c46c29a7ca085
     }
 
 header {
@@ -17,6 +27,7 @@ header {
     text-align: left;
     }
 
+<<<<<<< HEAD
 div  {
     margin-right: 10px;
     margin-top: 10px;
@@ -130,6 +141,44 @@ a {
 .x-large {
     width: 440px;
     height: 150px;
+=======
+article div {
+    height: 150px;
+    margin-right: 10px;
+    margin-top: 10px;
+        }
+
+article div i {
+    color: white;
+                }
+
+article div a {
+    text-decoration: none;
+    text-align: left;
+    color: white;
+    font-size: 1.125em;/* Approximation due to font substitution */
+    font-weight: 200;
+    line-height: 1.444;/* Approximation due to font substitution */
+}
+
+.first {
+    width: 150px;
+    text-align: center;
+        }
+
+.second {
+    width: 280px;
+    text-align: center;
+}
+
+.third {
+    width: 310px;
+    text-align: center;
+}
+
+.fourth {
+    width: 440px;
+>>>>>>> 2fecc3415184f4d35c3f77ba849c46c29a7ca085
 }
 
 #home {
@@ -171,6 +220,7 @@ a {
 #contact {
     background-color: #7e5b8c;
     display: inline-block;
+<<<<<<< HEAD
         }
 .blog {
     display: inline-block;
@@ -198,6 +248,9 @@ a {
     line-height: 2.5;/* Approximation due to font substitution */
     }
 
+=======
+    }
+>>>>>>> 2fecc3415184f4d35c3f77ba849c46c29a7ca085
 
 .social img {
     height: 75px;
