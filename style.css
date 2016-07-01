@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 body {
     width: 1280px;
     height: 800px;
@@ -8,16 +6,7 @@ body {
     margin-left: 170px;
     display: inline-block;
     position: relative;
-=======
-body {
-    width: 1280px;
-    height: 800px;
-    display: inline-block;
-    background-image: url("images/background.jpg");
-    font-family: "Helvetica Neue Ultra Light", sans-serif;
-    margin-left: 170px;
->>>>>>> 2fecc3415184f4d35c3f77ba849c46c29a7ca085
-    }
+}
 
 header {
     color: #ffffff;
@@ -27,7 +16,6 @@ header {
     text-align: left;
     }
 
-<<<<<<< HEAD
 div  {
     margin-right: 10px;
     margin-top: 10px;
@@ -44,6 +32,7 @@ a {
     display: block;
     text-align: center;
     }
+
 .title {
     text-align: left;
     display: block;
@@ -55,56 +44,67 @@ a {
     margin-left: 10px;
     margin-top: 34px;
 }
+
 #i-home {
     margin-left: 49px;
     margin-top: 39px;
     width: 52px;
     height: 54px;
 }
+
 #t-about {
     margin-left: 8px;
     margin-top: 28px;
 }
+
 #i-about {
     margin-left: 50px;
     margin-top: 36px;
     width: 50px;
     height: 63px;
 }
+
 #t-portfolio {
     margin-left: 9px;
     margin-top: 34px;
 }
+
 #i-portfolio {
     margin-left: 112px;
     margin-top: 40px;
     width: 57px;
     height: 53px;
 }
+
 #t-photos {
     margin-left:10px;
     margin-top: 34px;
 }
+
 #i-photos {
     margin-left: 46px;
     margin-top: 39px;
     width: 58px;
     height: 54px;
 }
+
 #t-testimonials {
     margin-left:8px;
     margin-top: 34px;
 }
+
 #i-testimonials {
     margin-left: 47px;
     margin-top: 46px;
     width: 55px;
     height: 47px;
 }
+
 #t-wanna {
     margin-left:10px;
     margin-top: 27px;
 }
+
 #i-wanna {
     margin-left: 128px;
     margin-top: 32px;
@@ -140,46 +140,11 @@ a {
 
 .x-large {
     width: 440px;
-    height: 150px;
-=======
-article div {
-    height: 150px;
-    margin-right: 10px;
-    margin-top: 10px;
-        }
+    height: 150px;}
 
-article div i {
-    color: white;
-                }
 
-article div a {
-    text-decoration: none;
-    text-align: left;
-    color: white;
-    font-size: 1.125em;/* Approximation due to font substitution */
-    font-weight: 200;
-    line-height: 1.444;/* Approximation due to font substitution */
-}
 
-.first {
-    width: 150px;
-    text-align: center;
-        }
 
-.second {
-    width: 280px;
-    text-align: center;
-}
-
-.third {
-    width: 310px;
-    text-align: center;
-}
-
-.fourth {
-    width: 440px;
->>>>>>> 2fecc3415184f4d35c3f77ba849c46c29a7ca085
-}
 
 #home {
     background-color: #3387ea;
@@ -220,7 +185,6 @@ article div a {
 #contact {
     background-color: #7e5b8c;
     display: inline-block;
-<<<<<<< HEAD
         }
 .blog {
     display: inline-block;
@@ -247,11 +211,6 @@ article div a {
     
     line-height: 2.5;/* Approximation due to font substitution */
     }
-
-=======
-    }
->>>>>>> 2fecc3415184f4d35c3f77ba849c46c29a7ca085
-
 .social img {
     height: 75px;
     width: 75px;
